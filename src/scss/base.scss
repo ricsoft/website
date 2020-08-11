@@ -1,0 +1,16 @@
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: $theme-white;
+
+  @media only screen and (min-width: $tablet) {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  @media only screen and (min-width: $desktop) {
+    padding: 0;
+  }
+}
