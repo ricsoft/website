@@ -57,10 +57,9 @@ export default {
   @media only screen and (min-width: $desktop) {
     width: 45rem;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: 4.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 }
 </style>

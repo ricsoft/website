@@ -74,6 +74,10 @@ export default {
   position: relative;
   z-index: 1;
 
+  @media only screen and (min-width: $desktop) {
+    padding-top: 0;
+  }
+
   &__selected {
     width: 12rem;
     padding: 1rem;

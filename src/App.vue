@@ -30,7 +30,7 @@ body {
 <style scoped lang="scss">
 @import "@/scss/base.scss";
 .app {
-  height: 101vh;
+  height: 100.1vh;
   position: relative;
 
   @media only screen and (min-width: $desktop) {
