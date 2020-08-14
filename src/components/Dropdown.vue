@@ -155,7 +155,6 @@ export default {
 
 .menu-transition-enter-to,
 .menu-transition-leave {
-  top: 4rem;
   opacity: 1;
 }
 
