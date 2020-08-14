@@ -113,13 +113,16 @@ export default {
 
   &__menu {
     width: 13.1rem;
-    margin-top: 0.3rem;
     padding-left: 1rem;
     top: 4rem;
     position: absolute;
     font-size: 1.1rem;
     color: $theme-black;
     background-color: $theme-white;
+
+    @media only screen and (min-width: $desktop) {
+      top: 3.5rem;
+    }
 
     &__options {
       margin-right: 1.5rem;
