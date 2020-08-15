@@ -1,15 +1,15 @@
 <template>
   <div class="container home">
     <div>
-      <p class="home__text">hi im</p>
+      <p class="home__text">hi, i'm</p>
       <p class="home__text__name">Richard</p>
       <p class="home__text">
-        software developer with a background in systems and network
-        administration
+        a software developer with a background in systems and network
+        administration.
       </p>
       <p class="home__text">
         <font-awesome-icon :icon="['fas', 'heart']" />
-        tech
+        tech!
       </p>
     </div>
     <div class="home__icons">
